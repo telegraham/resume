@@ -1,0 +1,19 @@
+{
+	"name": "Graham Troyer-Joy",
+	"address": {
+		"street": [ "4960 N. Marine Dr. #912" ],
+		"city": "Chicago",
+		"state": "Illinois",
+		"zip": "60640"
+	},
+	"phone": "+1 708 275 5448",
+
+	"blat": [
+		{
+			"what": "Front-End developer",
+			"where": "The Field Museum",
+			"when": "2009-12",
+			"how":
+		}
+	]
+}
