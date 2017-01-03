@@ -1,0 +1,97 @@
+---
+
+---
+
+body
+{
+	text-align:center;
+	font-family: Georgia;
+	padding: 0px;
+	margin: 0px;
+	background: url('diagonal.gif') repeat fixed;
+	font-size:11pt;
+}
+#header
+{
+	font-size: 48px;
+}
+#footer
+{
+	font-size: 18px;
+	clear: both;
+}
+#header, #footer
+{
+	font-variant: small-caps;
+	margin-left: 200px;
+}
+.item, .subhead
+{
+	margin-top: 20px;
+}
+.item
+{
+	margin-bottom: 20px;
+}
+#header, #footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#body
+{
+	text-align:left;
+	width: 800px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color: #fff;
+	
+	-moz-box-shadow: 0px 0px 30px #888;
+	-webkit-box-shadow: 0px 0px 30px #888;
+	box-shadow: 0px 0px 30px #888;
+}
+.date
+{
+	text-align:right;
+	padding-right: 24px;
+}
+.title
+{
+	width: 520px;
+	margin-right: 80px;
+}
+.description
+{
+	margin-left: 200px;
+	clear:both;
+	margin-right: 80px;
+}
+.date, .title
+{
+	float: right;
+	font-style: italic;
+}
+.subhead
+{
+	float:right;
+	padding-right: 504px;
+	margin-right: 120px;
+	font-weight: 550;
+	border-bottom: 1px solid gray;
+	font-size:16pt;
+	clear: both;
+	
+}
+#skills
+{
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+#skills div
+{
+	float: left;
+	width: 180px;
+	white-space: nowrap;
+}
