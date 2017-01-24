@@ -3,48 +3,47 @@ layout: default
 title: Graham Troyer-Joy
 ---
 
-<div id="body">
-	<div id="header">
-		{{ site.data.resume.name }}
-	</div>
-	<div class="subhead">
-		work
-	</div>
-
+<article class="resume">
+	<h1>{{ site.data.resume.name }}</h1>
+	<h2>elevator speech</h2>
+	<p class="how">
+		{{ site.data.resume.elevatorSpeech }}
+	</p>
+	<h2>work</h2>
+	<ol>
 	{% for job in site.data.resume.work %}
-	<div class="item">
-		<div class="title">{{ job.what }}, {{ job.where }}</div>
-		<div class="date">{{ job.when }}</div>
-		<div class="description">{{ job.how }}</div>
-	</div>
+		<li class="item">
+			<h3 class="what">{{ job.what }}, {{ job.where }}</h3>
+			<span class="when">{{ job.when }}</span>
+			<p class="how">{{ job.how }}</p>
+		</li>
 	{% endfor %}
+	</ol>
+	<h2>experience</h2>
+	<ol>
+		{% for experience in site.data.resume.experience %}
+		<li class="item">
+			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
+			<span class="when">{{ experience.when }}</span>
+			<p class="how">{{ experience.how }}</p>
+		</li>
+		{% endfor %}
+	</ol>
 
-	<div class="subhead">
-		experience
-	</div>
-	{% for experience in site.data.resume.experience %}
-	<div class="item">
-		<div class="title">{{ experience.what }}, {{ experience.where }}</div>
-		<div class="date">{{ experience.when }}</div>
-		<div class="description">{{ experience.how }}</div>
-	</div>
-	{% endfor %}
-
-	<div class="subhead">
-		education
-	</div>
-	{% for experience in site.data.resume.education %}
-	<div class="item">
-		<div class="title">{{ experience.what }}, {{ experience.where }}</div>
-		<div class="date">{{ experience.when }}</div>
-		<div class="description">{{ experience.how }}</div>
-	</div>
-	{% endfor %}
+	<h2>education</h2>
+	<ol>
+		{% for experience in site.data.resume.education %}
+		<li class="item">
+			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
+			<span class="when">{{ experience.when }}</span>
+			<p class="how">{{ experience.how }}</p>
+		</li>
+		{% endfor %}
+	</ol>
 
 
-	<div id="footer">
-	708 275 5448 &bull; graham@troyer-joy.com
-	<br />
-	4960 North Marine Drive #912 &bull; Chicago, Illinois 60640
-	</div>
-</div>
+	<footer>
+	{{ site.data.resume.phone }} &bull; <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a><br />
+	{{ site.data.resume.address.street | join }} &bull; {{ site.data.resume.address.city }}, {{ site.data.resume.address.state }} {{ site.data.resume.address.zip }}
+	</footer>
+</article>
