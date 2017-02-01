@@ -14,7 +14,7 @@
 			"what": "Senior Interactive Producer / Front-End Developer",
 			"where": "The Field Museum",
 			"when": "2014-present",
-			"how": "Implemented an iterative, agile software development process; helped transform department from maintenance-oriented service workflow to strategic, project-based, forward-thinking approach. Created front-end platform for rich digital storytelling experiences, doubling conversion rate over previous microsites. Redesigned, re-branded, and upgraded public-facing website in collaboration with external vendors, internal stakeholders, team members. Supported institutional and departmental goals across communications channels as part of a multidisciplinary team, and across departments. Conceived groundbreaking ticketing prototype, managed internship bringing concept to completion. Product owner of Specimens digital exhibition interactive."
+			"how": "Implemented an iterative, agile software development process; helped transform department from maintenance-oriented service workflow to strategic, project-based, forward-thinking approach. Created front-end platform for rich digital storytelling experiences, doubling conversion rate over previous microsites. Redesigned, re-branded, and upgraded public-facing website in collaboration with external vendors, internal stakeholders, and team members. Supported institutional and departmental goals across communications channels as part of a multidisciplinary team, and across departments. Conceived groundbreaking ticketing prototype, managed internship bringing concept to completion. Product owner of Specimens digital exhibition interactive."
 		},
 		{
 			"what": "Software Engineer",
@@ -58,7 +58,7 @@
 			"what": "Speaker",
 			"where": "TEDx Grant Park",
 			"when": "2016",
-			"how": "Researched and presented a storytelling-based analysis of personal text message data to an audience of hundreds of Chicago innovators and influencers."
+			"how": "Researched and <a href=\"https://www.youtube.com/watch?v=K7IXnbEC2Uk\">presented</a> a storytelling-based analysis of personal text message data to an audience of hundreds of Chicago innovators."
 		},
 		{
 			"what": "Winner",
@@ -84,7 +84,7 @@
 			"what": "Bachelor of Arts",
 			"where": "Knox College",
 			"when": "2008",
-			"how": "Major in anthropology & sociology, minor in painting, minor in Spanish. Leader of student activist group: organized outreach and other programming, group trips to NY & DC."
+			"how": "Major in anthropology & sociology, minor in painting, minor in Spanish. Leader of student activist group: organized outreach and other programming, group trips to NY and DC."
 		},
 	],
 }
