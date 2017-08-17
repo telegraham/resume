@@ -44,7 +44,7 @@ DEPENDENCIES
   jekyll (= 3.3.1)
 
 RUBY VERSION
-   ruby 2.0.0p247
+   ruby 2.2.6p396
 
 BUNDLED WITH
-   1.13.7
+   1.15.0

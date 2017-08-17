@@ -14,17 +14,17 @@
 			"what": "Software Developer Instructor",
 			"where": "Dev Bootcamp",
 			"when": "2017-present",
-			"how": "Served students as a teacher, a technical expert, as a mentor and a guide; helping them develop the technical and interpersonal skills that well-rounded software professionals need. Collaborated to deliver Engineering Empathy curriculum, led LGBTQ diversity lunches, pioneered new approaches to teaching front-end development."
+			"how": "Served as a teacher, a technical expert, as a mentor and a guide; helping students develop engineering and interpersonal skills and become software professionals. Collaborated to deliver Engineering Empathy curriculum, led LGBTQ affinity lunches, pioneered new approaches to teaching front-end development."
 		},
 		{
 			"what": "Senior Interactive Product Engineer",
 			"where": "The Field Museum",
 			"when": "2014-2017",
-			"how": "Implemented an iterative, agile software development process; helped transform department from maintenance-oriented service workflow to strategic, project-based, forward-thinking approach. Created front-end platform for rich digital storytelling experiences, doubling conversion rate over previous microsites. Redesigned, re-branded, and upgraded public-facing website in collaboration with external vendors, internal stakeholders, and team members. Supported institutional and departmental goals across communications channels as part of a multidisciplinary team, and across departments. Conceived groundbreaking ticketing prototype, managed internship bringing concept to completion. Product owner of Specimens digital exhibition interactive."
+			"how": "Implemented an iterative, agile software development process; helped transform department from maintenance-oriented reactive workflow to strategic, project-based, forward-thinking approach. Created platform for digital storytelling, doubling conversions over previous microsites. Redesigned, re-branded, and upgraded public website in collaboration with vendors and stakeholders. Conceived groundbreaking ticketing prototype and managed internship bringing concept to completion. Product owner of <a href='https://www.fieldmuseum.org/on-exhibit/discover/specimens'>Specimens interactive</a>."
 		},
 		{
 			"what": "Software Engineer",
-			"where": "Spotlite (a subsidiary of PerkSpot)",
+			"where": "Spotlite (<span class='nobr'>a subsidiary</span> of PerkSpot)",
 			"when": "2011-13",
 			"how": "Created a tool to visualize and update complex rate and eligibility flows at fast-paced, disruptive insurance startup. Implemented a complete redesign of enrollment interface compatible with browsers down to IE 6. Architected HIPAA-compliant admin tools including custom content management solution. Discovered the charms and challenges of telecommuting."
 		},
@@ -58,7 +58,7 @@
 			"what": "Leader",
 			"where": "Outfielders",
 			"when": "2014-present",
-			"how": "Founded and led employee advocacy group to promote inclusion and visibility for LGBTQ people at The Field Museum. Created first-ever publicly accessible all-gender bathroom in the Museum, co-sponsored relevant scientific lectures with Women in Science group. Planned and executed public events from concept and budget to marketing and logistics. Organized pride parade contingents that reached hundreds of thousands of Chicagoans; devised and managed first-of-kind Slushies and Science event, which sold out within hours and brought pertinent Field Museum science out of the Museum and into visitors' neighborhoods."
+			"how": "Founded and led employee advocacy group promoting inclusion and visibility for LGBTQ people at The Field Museum. Created first-ever publicly accessible all-gender bathroom, co-sponsored relevant scientific lectures with Women in Science group. Planned and executed public events from concept and budget to marketing and logistics. Organized pride parade contingents; devised and managed first-of-kind Slushies and Science event, which sold out within hours and brought pertinent science out of the Museum and into visitors' neighborhoods."
 		},
 		{
 			"what": "Speaker",

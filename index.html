@@ -6,36 +6,36 @@ title: Graham Troyer-Joy
 <article class="resume">
 	<h1>{{ site.data.resume.name }}</h1>
 	<h2>elevator speech</h2>
-	<p class="how">
+	<p class="how item">
 		{{ site.data.resume.elevatorSpeech }}
 	</p>
 	<h2>work</h2>
-	<ol>
+	<ol class="items">
 	{% for job in site.data.resume.work %}
 		<li class="item">
-			<h3 class="what">{{ job.what }}, {{ job.where }}</h3>
 			<span class="when">{{ job.when }}</span>
+			<h3 class="what">{{ job.what }}, {{ job.where }}</h3>
 			<p class="how">{{ job.how }}</p>
 		</li>
 	{% endfor %}
 	</ol>
 	<h2>experience</h2>
-	<ol>
+	<ol class="items">
 		{% for experience in site.data.resume.experience %}
 		<li class="item">
-			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
 			<span class="when">{{ experience.when }}</span>
+			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
 			<p class="how">{{ experience.how }}</p>
 		</li>
 		{% endfor %}
 	</ol>
 
 	<h2>education</h2>
-	<ol>
+	<ol class="items">
 		{% for experience in site.data.resume.education %}
 		<li class="item">
-			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
 			<span class="when">{{ experience.when }}</span>
+			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
 			<p class="how">{{ experience.how }}</p>
 		</li>
 		{% endfor %}
@@ -43,7 +43,10 @@ title: Graham Troyer-Joy
 
 
 	<footer>
-	{{ site.data.resume.phone }} &bull; <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a><br />
-	{{ site.data.resume.address.street | join }} &bull; {{ site.data.resume.address.city }}, {{ site.data.resume.address.state }} {{ site.data.resume.address.zip }}
+	<ol class="items">
+		<li>{{ site.data.resume.phone }}</li>
+		<li><a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a></li>
+		<li class="address">{{ site.data.resume.address.street | join }}</li>
+		<li>{{ site.data.resume.address.city }}, {{ site.data.resume.address.state }}</li>
 	</footer>
 </article>

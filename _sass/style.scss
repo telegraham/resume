@@ -1,82 +1,120 @@
-
 @import 'reset';
 
-
+$mainContentWidth: 515px;
+$gutterWidth: 24px;
+$sidebarWidth: 140px;
+$outerPadding: 40px;
 
 body {
 	font-family: Georgia, serif;
-	padding: 0px;
-	margin: 0px;
-	background: #d0d0d0;
 	font-size: 14px;
 	line-height: 1.5em;
 }
 h1 {
 	font-size: 48px;
 	line-height: 40px;
+	font-variant: small-caps;
 }
 h2 {
-	float: right;
-	padding-right: 504px;
-	margin-right: 120px;
 	font-weight: 500;
 	border-bottom: 1px solid gray;
-	font-size: 16pt;
-	clear: both;
-	margin-bottom: 5px;
+	font-size: 20px;
+	margin: 20px 0px 5px;
 }
-
-
 
 .resume {
 	text-align: left;
-	width: 800px;
 	margin: 0 auto;
 	background-color: white;
+	padding: 0px 20px;
+	overflow: hidden; /* footer margin */
 }
-
-
 footer {
 	font-size: 18px;
 	clear: both;
 }
-h1, 
+h1,
 footer {
-	font-variant: small-caps;
 	text-align: center;
-	padding: 20px 0px;
-}
-
-h2, 
-.item {
-	margin-top: 20px;
+	margin: 30px 0px 20px;
 }
 .item {
-	margin-bottom: 20px;
+	margin: 20px 0px;
 }
 .when {
-	text-align: right;
-	padding-right: 24px;
-    float: right;
+	font-weight: 500;
+	&::after {
+		content: ':';
+	}
 }
 .what {
-	width: 520px;
+	display: inline;
 }
-.how {
-	margin-left: 200px;
-	clear: both;
-}
-.what, 
-.how {
-	margin-right: 80px;
-}
-.date, 
+.date,
 .what {
-	float: right;
 	font-style: italic;
 }
+.nobr {
+	white-space: nowrap;
+}
 
-
-
-
+@media print, screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
+	body {
+		background: #d0d0d0;
+	}
+	h1 {
+		text-align: left;
+	}
+	h1, .what, .how {
+		padding-left: $sidebarWidth + $gutterWidth;
+	}
+	h2 {
+		text-align: right;
+		float: right;
+		padding-right: $mainContentWidth + $gutterWidth;
+	}
+	.resume {
+		width: $mainContentWidth + $gutterWidth + $sidebarWidth;
+		padding: 0px $outerPadding;
+	}
+	.item {
+		clear: both;
+	}
+	.what, .when {
+		display: block;
+	}
+	.when {
+		text-align: right;
+		float: left;
+		width: $sidebarWidth;
+		&:after {
+			content: '';
+		};
+	}
+	footer ol {
+		padding-left: $sidebarWidth + $gutterWidth;
+		text-align: left;
+		&:after {
+			display: block;
+			content: ' ';
+			clear: both;
+		}
+	}
+	footer li {
+		float: left;
+		&:before {
+			content: '•';
+			margin: 0 5px;
+		}
+		&:first-child,
+		&.address {
+			&:before {
+				display: none;
+			}
+		}
+	}
+	.address {
+		clear: both;
+	}
+}
 
