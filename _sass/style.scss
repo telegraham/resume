@@ -4,6 +4,11 @@ $mainContentWidth: 515px;
 $gutterWidth: 24px;
 $sidebarWidth: 140px;
 $outerPadding: 40px;
+$breakpoint: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2 + 2;
+$darkRed: #c30;
+$red: #f00;
+$stormBlue: #c2ccd6;
+$stormBlueShadow: hsla(210, 100%, 15%, .25);
 
 body {
 	font-family: Georgia, serif;
@@ -15,7 +20,7 @@ a {
 }
 @media screen {
 	a {
-		color: #c30;
+		color: $darkRed;
 		transition: color 0.5s;
 		position: relative;
 	}
@@ -24,14 +29,15 @@ a {
 		position: absolute;
 		width: 100%;
 		height: 1px;
-		background: red;
+		background: $red;
 		bottom: 8%;
 		left: 0px;
 		transform: scale(0, 1);
 		transition: transform .25s;
+		will-change: transform;
 	}
 	a:hover {
-		color: red;
+		color: $red;
 		transition: color 0.25s;
 	}
 	a:hover:after {
@@ -59,7 +65,11 @@ h2 {
 	font-size: 20px;
 	margin: 20px 0px 5px;
 }
-
+@media print {
+	h2 {
+		border-bottom-color: black;
+	}
+}
 .resume {
 	text-align: left;
 	margin: 0 auto;
@@ -96,14 +106,14 @@ footer {
 	white-space: nowrap;
 }
 
-@media screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
+@media screen and (min-width: $breakpoint) {
 	body {
-		background: #c2ccd6;
+		background: $stormBlue;
 	}
 	.resume {
 		position: relative;
 		margin: 75px auto;
-		box-shadow: 0 0 50px hsla(210, 100%, 15%, .25);
+		box-shadow: 0 0 50px $stormBlueShadow;
 	}
 	.print {
 		display: block;
@@ -132,7 +142,7 @@ footer {
   	display: none;
   }
 }
-@media print, screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
+@media print, screen and (min-width: $breakpoint) {
 	h1 {
 		text-align: left;
 	}
