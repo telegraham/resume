@@ -11,34 +11,47 @@ body {
 	line-height: 1.5em;
 }
 a {
-	color: #c30;
-	transition: color 0.5s;
-	text-decoration: none;
-	position: relative;
+		text-decoration: none;
 }
-a:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 1px;
-	background: red;
-	bottom: 8%;
-	left: 0px;
-	transform: scale(0, 1);
-	transition: transform .25s;
+@media screen {
+	a {
+		color: #c30;
+		transition: color 0.5s;
+		position: relative;
+	}
+	a:after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: red;
+		bottom: 8%;
+		left: 0px;
+		transform: scale(0, 1);
+		transition: transform .25s;
+	}
+	a:hover {
+		color: red;
+		transition: color 0.25s;
+	}
+	a:hover:after {
+		transform: none;
+	}
 }
-a:hover {
-	color: red;
-	transition: color 0.25s;
+@media print {
+	a {
+		color: black;
+	}
 }
-a:hover:after {
-	transform: none;
+.print {
+	display: none;
 }
 h1 {
 	font-size: 48px;
 	line-height: 40px;
 	font-variant: small-caps;
-	margin: 30px 0px 30px;
+	padding-top: 40px;
+	margin-bottom: 30px;
 }
 h2 {
 	font-weight: 500;
@@ -52,12 +65,12 @@ h2 {
 	margin: 0 auto;
 	background-color: white;
 	padding: 0px 20px;
-	overflow: hidden; /* footer margin */
 }
 footer {
 	font-size: 18px;
 	clear: both;
-	margin: 40px 0px 30px;
+	margin-top: 30px;
+	padding-bottom: 40px;
 }
 h1,
 footer {
@@ -83,10 +96,43 @@ footer {
 	white-space: nowrap;
 }
 
-@media print, screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
+@media screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
 	body {
-		background: #d0d0d0;
+		background: #c2ccd6;
 	}
+	.resume {
+		position: relative;
+		margin: 75px auto;
+		box-shadow: 0 0 50px hsla(210, 100%, 15%, .25);
+	}
+	.print {
+		display: block;
+		position: absolute;
+		right: 30px;
+		transform: translateY(-80%);
+		background: #c30;
+		color: #FFF;
+		padding: 10px 15px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+		border-radius: 5px 5px 0 0;
+		background-color: #c30;
+		z-index: -1;
+		will-change: transform;
+		transition: transform .5s;
+  }
+  .print:hover {
+  	color: #fff;
+  	transition: transform .25s;
+  	transform: translateY(-100%);
+  }
+  .print:active {
+  	background: red;
+  }
+  .print:after {
+  	display: none;
+  }
+}
+@media print, screen and (min-width: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2) {
 	h1 {
 		text-align: left;
 	}
