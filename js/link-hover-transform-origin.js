@@ -6,7 +6,7 @@ function onDomContentLoaded(){
 
 function bindHover(anchor){
   anchor.addEventListener("mouseover", onHover);
-  anchor.addEventListener("mousemove", onHover);
+  anchor.addEventListener("mouseout", onHover);
 }
 
 function onHover(event){
