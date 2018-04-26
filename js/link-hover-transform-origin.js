@@ -14,5 +14,5 @@ function onHover(event){
 }
 
 function targetPositionX(event){
-  return event.pageX - event.target.offsetLeft;
+  return event.pageX - event.target.getBoundingClientRect().left;
 }
