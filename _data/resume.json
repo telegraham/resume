@@ -4,12 +4,17 @@
 	"email": "graham@troyer-joy.com",
 	"pronouns": "he/him/his",
 	"elevatorSpeech": "I’m a passionate digital storyteller; a collaborative, creative, relentless innovator; an empathic and courageous leader; an advocate for user-centered design. I’m meticulous about alignment between tactics and strategy, fanatical about process, and obsessed with data. I’m a firm believer that you’re doing it right when you’re having fun because you’re working your ass off at something that matters.",
-	"work": [
+	"work": [{
+			"what": "Lead Web Development Instructor",
+			"where": "Flatiron School,
+			"when": "2018-present",
+			"how": "Delivered React, JavaScript, Ruby, Rails curricula creatively and enthusiastically, led teams of technical coaching fellows to address student needs one-on-one, collaborated to nimbly handle and escalate student issues and concerns."
+		},
 		{
 			"what": "Software Developer Instructor",
-			"where": "Dev Bootcamp",
-			"when": "2017-present",
-			"how": "Served as a teacher, a technical expert, as a mentor and a guide; helping students develop engineering and interpersonal skills and become software professionals. Collaborated to deliver Engineering Empathy curriculum, led LGBTQ affinity lunches, pioneered new approaches to teaching front-end development."
+			"where": "Dev Bootcamp Chicago",
+			"when": "2017",
+			"how": "Served as a teacher, a technical expert, as a mentor and a guide; helping students develop the engineering and interpersonal skills they need to become software professionals. Collaborated to deliver Engineering Empathy curriculum, led LGBTQ affinity lunches, pioneered new approaches to teaching front-end development."
 		},
 		{
 			"what": "Senior Interactive Product Engineer",
