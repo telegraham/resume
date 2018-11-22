@@ -24,13 +24,13 @@
 		},
 		{
 			"what": "Software Engineer",
-			"where": "Spotlite (<span class='nobr'>a subsidiary</span> of PerkSpot)",
+			"where": "Spotlite (PerkSpot)",
 			"when": "2011-13",
 			"how": "Created a tool to visualize and update complex rate and eligibility flows at fast-paced, disruptive insurance startup. Implemented a rich enrollment interface with compatibility for legacy browsers. Architected HIPAA-compliant admin tools including custom content management solution."
 		},
 		{
 			"what": "Developer",
-			"where": "Highbeam Research (a subsidiary of Cengage Learning)",
+			"where": "Highbeam Research (Cengage Learning)",
 			"when": "2009-11",
 			"how": "Worked with a large, diverse Scrum team to develop new features in a large, existing codebase as outlined in user-story requirements. Transitioned legacy application to modern web framework. Created reusable front-end components."
 		},
