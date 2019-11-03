@@ -6,38 +6,50 @@ title: Graham Troyer-Joy
 <article class="resume">
 	<a class="print" onclick="javascript:print(); return false;" href="#">print</a>
 	<h1>{{ site.data.resume.name }}</h1>
-	<h2>elevator speech</h2>
-	<p class="how item">
+	<h2>About</h2>
+	<p class="how item about">
 		{{ site.data.resume.elevatorSpeech }}
 	</p>
-	<h2>work</h2>
+	<h2>Work</h2>
 	<ol class="items">
 	{% for job in site.data.resume.work %}
 		<li class="item">
 			<span class="when">{{ job.when }}</span>
 			<h3 class="what">{{ job.what }}, {{ job.where }}</h3>
-			<p class="how">{{ job.how }}</p>
+			<ul class="how">
+				{% for bullet in job.how %}
+					<li>{{ bullet }}</li>
+				{% endfor %}
+			</ul>
 		</li>
 	{% endfor %}
 	</ol>
-	<h2>experience</h2>
+	<h2>Experience</h2>
 	<ol class="items">
 		{% for experience in site.data.resume.experience %}
 		<li class="item">
 			<span class="when">{{ experience.when }}</span>
 			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
-			<p class="how">{{ experience.how }}</p>
+			<ol class="how">
+				{% for bullet in experience.how %}
+					<li>{{ bullet }}</li>
+				{% endfor %}
+			</ol>
 		</li>
 		{% endfor %}
 	</ol>
 
-	<h2>education</h2>
+	<h2>Education</h2>
 	<ol class="items">
-		{% for experience in site.data.resume.education %}
+		{% for education in site.data.resume.education %}
 		<li class="item">
-			<span class="when">{{ experience.when }}</span>
-			<h3 class="what">{{ experience.what }}, {{ experience.where }}</h3>
-			<p class="how">{{ experience.how }}</p>
+			<span class="when">{{ education.when }}</span>
+			<h3 class="what">{{ education.what }}, {{ education.where }}</h3>
+			<ul class="how">
+				{% for bullet in education.how %}
+					<li>{{ bullet }}</li>
+				{% endfor %}
+			</ul>
 		</li>
 		{% endfor %}
 	</ol>
@@ -45,7 +57,7 @@ title: Graham Troyer-Joy
 
 	<footer>
 	<ol class="items">
-		<li>{{ site.data.resume.phone }}</li>
+		<li><a href="tel:{{ site.data.resume.phone | replace: " ", "" }}">{{site.data.resume.phone}}</a></li>
 		<li><a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a></li>
 		<li>{{ site.data.resume.pronouns }}</li>
 	</footer>

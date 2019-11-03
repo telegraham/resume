@@ -1,19 +1,23 @@
 @import 'reset';
 
 $mainContentWidth: 515px;
-$gutterWidth: 24px;
-$sidebarWidth: 140px;
-$outerPadding: 40px;
+$gutterWidth: 25px;
+$sidebarWidth: 85px;
+$outerPadding: 60px;
 $breakpoint: $mainContentWidth + $gutterWidth + $sidebarWidth + $outerPadding * 2 + 2;
 $darkRed: #c30;
 $red: #f00;
 $stormBlue: #c2ccd6;
 $stormBlueShadow: hsla(210, 100%, 15%, .25);
 
+@page { 
+    size: auto;
+    margin: .4in .4in .4in .4in;  
+} 
 body {
 	font-family: Georgia, serif;
 	font-size: 14px;
-	line-height: 1.5em;
+	line-height: 1.69em;
 }
 a {
 		text-decoration: none;
@@ -57,14 +61,21 @@ h1 {
 	font-size: 48px;
 	line-height: 40px;
 	font-variant: small-caps;
+	letter-spacing: .079em; /* just under the legal limit */
 	padding-top: 40px;
 	margin-bottom: 30px;
+}
+@media print {
+	h1 {
+		padding-top: 0;
+	}
 }
 h2 {
 	font-weight: 500;
 	border-bottom: 1px solid gray;
 	font-size: 20px;
-	margin: 20px 0px 5px;
+	margin: 10px 0px 10px;
+	text-transform: lowercase;
 }
 @media print {
 	h2 {
@@ -83,6 +94,11 @@ footer {
 	margin-top: 30px;
 	padding-bottom: 40px;
 }
+@media print { 
+	footer {
+		padding-bottom: 0px;
+	}
+}
 h1,
 footer {
 	text-align: center;
@@ -90,21 +106,36 @@ footer {
 .item {
 	margin: 20px 0px;
 }
+.item.about {
+	text-align: justify;
+}
 .when {
-	font-weight: 500;
+	font-weight: 100;
+	font-size: 16px;
+	/*line-height: 23px;*/
+	font-style: italic;
 	&::after {
 		content: ':';
 	}
 }
 .what {
 	display: inline;
-}
-.date,
-.what {
-	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 2px;
 }
 .nobr {
 	white-space: nowrap;
+}
+.how li {
+	margin-left: 0.9em;
+  position: relative;
+}
+.how li:before {
+  content:'○'; /*'↳';*/
+  position: absolute;
+  left: -1.125em;
+  overflow: visible;
+  font-size: 11px;
 }
 
 @media screen and (min-width: $breakpoint) {
@@ -187,7 +218,7 @@ footer {
 		float: left;
 		&:before {
 			content: '•';
-			margin: 0 5px;
+			margin: 0 10px;
 		}
 		&:first-child,
 		&.address {

@@ -5,86 +5,132 @@
 	"pronouns": "he/him/his",
 	"elevatorSpeech": "I’m a passionate digital creator; a collaborative, relentless innovator; a brave and empathic leader. I'm an advocate for diversity, inclusion, and user-centered design; I'm meticulous about alignment between strategy and tactics, devoted to process, and obsessed with data. I’m a firm believer that you’re doing it right when you’re having fun because you’re working your ass off at something that matters.",
 	"work": [{
-			"what": "Lead Software Development Instructor",
+			"what": "Lead Software Engineering Instructor",
 			"where": "Flatiron School",
-			"when": "2018-present",
-			"how": "Taught React, Rails, JS, and Ruby with creativity and passion to hundreds of student developers. Sustained cross-functional collaborations to improve curricula. Managed daily tasks for teams of technical coaching fellowsn to meet student needs and remediate student struggles. Pilot instructor for Houston, TX campus launch."
+			"when": "2018-now",
+			"how": [
+				"Led cohorts of 20+ students, helping them build technical and collaborative skills",
+				"Oversaw teams of coaches to execute immediate and long-term educational goals",
+				"Lectured, debugged, and lent expertise in Ruby, SQL, Rails, JS, React, and Redux",
+				"Delivered capstone workshops in Websockets (Rails ActionCable), basic DevOps",
+				"Founded campus instructional team for expansion to Houston, TX "
+			]
 		},
 		{
 			"what": "Software Developer Instructor",
 			"where": "Dev Bootcamp Chicago",
 			"when": "2017",
-			"how": "Served as a teacher, a technical expert, and a mentor; helping students develop the engineering and interpersonal skills they need to become software professionals. Collaborated to teach Engineering Empathy curriculum, facilitated LGBTQ affinity lunches, pioneered new approaches to teaching front-end development."
+			"how": [
+				"Served as a teacher, a technical expert, and a mentor to hundreds of students",
+				"Resolved behavioral and academic issues; mediated interpersonal conflicts",
+				"Spearheaded new approaches to teaching front-end development"
+			]
 		},
 		{
 			"what": "Senior Interactive Product Engineer",
 			"where": "The Field Museum",
 			"when": "2014-17",
-			"how": "Implemented an iterative, agile software development process; helped transform maintenance-oriented reactive workflow into strategic, project-based, forward-thinking approach. Created platform for digital storytelling, doubling conversions over previous microsites. Redesigned, re-branded, and upgraded public website in collaboration with vendors and stakeholders. Conceived groundbreaking ticketing prototype and managed internship that brought design concept to completion. Product owner of <a href='https://www.fieldmuseum.org/discover/on-exhibit/specimens'>Specimens interactive</a>."
+			"how": [
+				"Created platform for digital storytelling, doubling conversions from microsites",
+				"Conceived innovative ticketing prototype, managed intern to complete concept",
+				"Re-launched flagship webapp, in collaboration with vendors and stakeholders",
+				"Transformed reactive maintenance workflow into forward-thinking strategic one", 
+				"Led team transition to iterative, agile software development process",
+				"Product owner of groundbreaking <a href='https://www.fieldmuseum.org/discover/on-exhibit/specimens'>Specimens interactive</a>"
+			]
 		},
 		{
 			"what": "Software Engineer",
 			"where": "Spotlite (PerkSpot)",
 			"when": "2011-13",
-			"how": "Created a tool to visualize and update complex rate and eligibility flows at fast-paced, disruptive insurance startup. Implemented a rich enrollment interface with compatibility for legacy browsers. Architected HIPAA-compliant admin tools including custom content management solution. Discovered the charms and challenges of telecommuting."
+			"how": [
+				"Created admin tool to visualize and update complex rate and eligibility flows",
+				"Implemented a rich enrollment interface with compatibility for legacy browsers",
+				"Architected HIPAA-compliant content management solution (C#, ASP.Net MVC)",
+				"Discovered the charms and challenges of telecommuting"
+			]
 		},
 		{
 			"what": "Developer",
 			"where": "Highbeam Research (Cengage Learning)",
 			"when": "2009-11",
-			"how": "Worked with a large, diverse Scrum team to develop new features in a large, existing codebase as outlined in user-story requirements. Transitioned legacy application to modern web framework. Created reusable front-end components."
+			"how": [
+				"Worked with diverse Scrum teams to implement new features in large codebase",
+				"Created reusable front-end components per user stories, mockups, requirements",
+				"Transitioned legacy application codebase to modern web framework"
+			]
 		},
 		{
 			"what": "Developer",
 			"where": "Chicago Data Solutions",
 			"when": "2008-9",
-			"how": "Architected and implemented a custom ticketing solution, working directly with client to define user needs. Learned hands-on how to map features, design data schemas, and adhere to engineering best practices.",
+			"how": [
+				"Architected and implemented custom ticketing solution for client",
+				"Mapped features, designed schemas, learned engineering best practices"
+			]
 		},
 		{
-			"what": "Tech Director",
+			"what": "Technology Director",
 			"where": "WVKC Galesburg",
 			"when": "2005-8",
-			"how": "Maintained station website, audio stream, computing hardware. Authored automated show scheduling solution."
+			"how": [
+				"Maintained station website, audio stream, computing hardware",
+				"Authored automated show scheduling solution"
+			]
 		},
 	],
 	"experience": [
 		{
+			"what": "Expert",
+			"where": "Course Report: Why Learn <nobr>Object-Oriented</nobr> Programming?",
+			"when": "2019",
+			"how": [
+				"Broke down the abstract and slippery topic of OOP into concrete, accessible terms for a <a href='https://www.coursereport.com/blog/should-you-learn-object-oriented-programming-at-coding-bootcamp'>video interview</a> aimed at an audience of coding beginners",
+				]
+		},
+		{
+			"what": "Mentor",
+			"where": "Out in Tech",
+			"when": "2018",
+			"how": [
+					"Met youth mentee weekly to build job skills & trans* inclusion wiki project",
+				]
+		},
+		{
 			"what": "Leader",
-			"where": "Outfielders",
-			"when": "2014-present",
-			"how": "Founded and led employee advocacy group promoting inclusion and visibility for LGBTQ people at The Field Museum. Created first-ever publicly accessible all-gender bathroom, co-sponsored relevant scientific lectures with Women in Science group. Planned and executed public events from concept and budget to marketing and logistics. Organized pride parade contingents; devised and managed first-of-kind Slushies and Science event, which sold out within hours and brought pertinent science out of the Museum and into visitors' neighborhoods."
+			"where": "Outfielders (The Field Museum)",
+			"when": "2014-17",
+			"how": [
+				"Founded and led ERG promoting inclusion and visibility for LGBTQ+ people",
+				"Opened first-ever publicly accessible all-gender bathroom at the Field Museum",
+				"Created and executed first-of-a-kind Slushies and Science event (sold out within hours) bringing pertinent science out of the Museum into visitors' neighborhoods",
+				"Organized and planned public events &mdash; from concept and budget to logistics, marketing, and memorabilia &mdash; including first-ever Pride parade contingent",
+				"Produced scientific lectures in collaboration with Women in Science group"
+			]
 		},
 		{
 			"what": "Speaker",
 			"where": "TEDx Grant Park",
 			"when": "2016",
-			"how": "Researched and <a href=\"https://www.youtube.com/watch?v=K7IXnbEC2Uk\">presented</a> a storytelling-based analysis of personal text message data to an audience of hundreds of Chicago innovators."
+			"how": "Researched and <a href=\"https://www.youtube.com/watch?v=K7IXnbEC2Uk\">presented</a> a storytelling-based analysis of text message data"
 		},
 		{
 			"what": "Winner",
 			"where": "Lincoln Labs Hackathon",
 			"when": "2013",
-			"how": "Built and pitched an API-driven SMS-based citizen engagement app in 24 hours with a team of 4."
-		},
-		{
-			"what": "Outreach Volunteer",
-			"where": "Howard Brown Health Center",
-			"when": "2008-10",
-			"how": "Provided information about a range of health issues directly to vulnerable populations in collaboration with clinical staff."
-		},
-		{
-			"what": "Volunteer",
-			"where": "Common Ground Collective",
-			"when": "Spring 2006",
-			"how": "Gutted houses damaged by Hurricane Katrina in preparation for renovation with local community organization."
+			"how": "Pitched and built JSON-API-driven citizen engagement SMS app on a team of 4"
 		},
 	],
 	"education": [
 		{
 			"what": "Bachelor of Arts",
 			"where": "Knox College",
-			"when": "2008",
-			"how": "Major in anthropology & sociology, minor in painting, minor in Spanish. Leader of student activist group: organized outreach and other programming, group trips to NY and DC."
+			"when": "2004-8",
+			"how": [
+				"Major in anthropology & sociology, minor in painting, minor in Spanish",
+				"Leader of activist group; organized outreach, programming, protest trips to DC",
+				"Volunteered with community organization in lower 8th & 9th wards of New Orleans, gutting houses damaged by Hurricane Katrina to prepare for rebuilding"
+			]
 		},
 	],
 }
