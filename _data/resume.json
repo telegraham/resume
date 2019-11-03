@@ -85,7 +85,8 @@
 			"where": "Course Report: Why Learn <nobr>Object-Oriented</nobr> Programming?",
 			"when": "2019",
 			"how": [
-				"Broke down the abstract and slippery topic of OOP into concrete, accessible terms for a <a href='https://www.coursereport.com/blog/should-you-learn-object-oriented-programming-at-coding-bootcamp'>video interview</a> aimed at an audience of coding beginners",
+				"Introduced OOP using concrete, accessible terms in a <a href='https://www.coursereport.com/blog/should-you-learn-object-oriented-programming-at-coding-bootcamp'>video interview</a>",
+				"Explained an advanced topic to beginners using analogies and the Spice Girls",
 				]
 		},
 		{
