@@ -3,13 +3,18 @@
 	"phone": "+1 708 275 5448",
 	"email": "graham@troyer-joy.com",
 	"pronouns": "he/him/his",
-	"elevatorSpeech": "I’m a passionate digital creator; a collaborative, relentless innovator; a brave and empathic leader. I'm an advocate for diversity, inclusion, and user-centered design; I'm meticulous about alignment between strategy and tactics, devoted to process, and obsessed with data. I’m a firm believer that you’re doing it right when you’re having fun because you’re working your ass off at something that matters.",
+	"elevatorSpeech": "I am an empathic, open-minded leader; a curious, pragmatic problem-solver; an artist who ships. I believe in big scary high-value goals and small, stable iterations towards them. I build and grow diverse teams where engineers can bring their best selves to work, learn from actionable feedback, and meet challenges together. I'm happy when I'm working my ass off, with people I trust, on something that matters.",
 	"work": [{
 			"what": "Lead Software Engineer",
 			"where": "Stitch Fix",
-			"when": "2020-now",
+			"when": "2020-present",
 			"how": [
-				"I'll keep you posted."
+				"Led technical design & staffing of Live Styling to meet launch goals at scale",
+				"Partnered closely with product & design to align priorities & sequence work",
+				"Facilitated ways of working alignment & documentation on newly-formed team",
+				"Rapidly prototyped internal app creating observability for complex data pipeline",
+				"Empowered & inspired others to extend prototype, supporting technical growth",
+				"Recruited & interviewed c&idates, assessing technical & interpersonal skills",
 			]
 		},
 		{
@@ -17,11 +22,12 @@
 			"where": "Flatiron School",
 			"when": "2018-2020",
 			"how": [
-				"Led cohorts of 20+ students, helping them build technical and collaborative skills",
-				"Oversaw teams of coaches to execute immediate and long-term educational goals",
-				"Lectured, debugged, and lent expertise in Ruby, SQL, Rails, JS, React, and Redux",
-				"Delivered capstone workshops in Websockets (Rails ActionCable), basic DevOps",
-				"Founded campus instructional team for expansion to Houston, TX "
+				"Led teams of technical coaches, managing daily goals, removing blockers",
+				"Assessed hundreds of students against admissions & grading rubrics",
+				"Taught Rails/React curriculum; created & improved lessons to student need",
+				"Gave underperforming students corrective feedback, created improvement plans",
+				"Had the hard conversation with students who needed to leave the program",
+				"Founded campus instructional team in Houston, TX during expansion",
 			]
 		},
 		{
@@ -29,9 +35,9 @@
 			"where": "Dev Bootcamp Chicago",
 			"when": "2017",
 			"how": [
-				"Served as a teacher, a technical expert, and a mentor to hundreds of students",
-				"Resolved behavioral and academic issues; mediated interpersonal conflicts",
-				"Spearheaded new approaches to teaching front-end development"
+				"Mentored & coached students, delivering technical & behavioral feedback",
+				"Resolved academic issues & mediated interpersonal conflicts",
+				"Taught Ruby, JS, & \"Engineering Empathy\" EDI curriculum",
 			]
 		},
 		{
@@ -41,10 +47,8 @@
 			"how": [
 				"Created platform for digital storytelling, doubling conversions from microsites",
 				"Conceived innovative ticketing prototype, managed intern to complete concept",
-				"Re-launched flagship webapp, in collaboration with vendors and stakeholders",
-				"Transformed reactive maintenance workflow into forward-thinking strategic one", 
+				"Re-launched flagship webapp, in collaboration with vendors & stakeholders",
 				"Led team transition to iterative, agile software development process",
-				"Product owner of groundbreaking <a href='https://www.fieldmuseum.org/discover/on-exhibit/specimens'>Specimens interactive</a>"
 			]
 		},
 		{
@@ -52,10 +56,10 @@
 			"where": "Spotlite (PerkSpot)",
 			"when": "2011-13",
 			"how": [
-				"Created admin tool to visualize and update complex rate and eligibility flows",
+				"Created admin tool to visualize & update complex rate & eligibility flows",
 				"Implemented a rich enrollment interface with compatibility for legacy browsers",
 				"Architected HIPAA-compliant content management solution (C#, ASP.Net MVC)",
-				"Discovered the charms and challenges of telecommuting"
+				"Discovered the charms & challenges of telecommuting"
 			]
 		},
 		{
@@ -73,7 +77,7 @@
 			"where": "Chicago Data Solutions",
 			"when": "2008-9",
 			"how": [
-				"Architected and implemented custom ticketing solution for client",
+				"Architected & implemented custom ticketing solution for client",
 				"Mapped features, designed schemas, learned engineering best practices"
 			]
 		},
@@ -89,15 +93,6 @@
 	],
 	"experience": [
 		{
-			"what": "Expert",
-			"where": "Course Report: Why Learn <nobr>Object-Oriented</nobr> Programming?",
-			"when": "2019",
-			"how": [
-				"Introduced OOP using concrete, accessible terms in a <a href='https://www.coursereport.com/blog/should-you-learn-object-oriented-programming-at-coding-bootcamp'>video interview</a>",
-				"Explained an advanced topic for beginners using analogies and the Spice Girls",
-				]
-		},
-		{
 			"what": "Mentor",
 			"where": "Out in Tech",
 			"when": "2018",
@@ -110,10 +105,9 @@
 			"where": "Outfielders (The Field Museum)",
 			"when": "2014-17",
 			"how": [
-				"Founded and led ERG promoting inclusion and visibility for LGBTQ+ people",
+				"Founded & led ERG promoting inclusion & visibility for LGBTQ+ people",
 				"Opened first-ever publicly accessible all-gender bathroom at the Field Museum",
-				"Created and executed first-of-a-kind Slushies and Science event (sold out within hours) bringing pertinent science out of the Museum into visitors' neighborhoods",
-				"Organized and planned public events &mdash; from concept and budget to logistics, <a href='https://graham.troyer-joy.com/slushies'>marketing, and memorabilia</a> &mdash; including first-ever Pride parade contingent",
+				"Organized & planned public events &mdash; from concept & budget to logistics, <a href='https://graham.troyer-joy.com/slushies'>marketing, & memorabilia</a> &mdash; including first-ever Pride parade contingent",
 				"Produced scientific lectures in collaboration with Women in Science group"
 			]
 		},
@@ -121,13 +115,7 @@
 			"what": "Speaker",
 			"where": "TEDx Grant Park",
 			"when": "2016",
-			"how": "Researched and <a href=\"https://www.youtube.com/watch?v=K7IXnbEC2Uk\">presented</a> a storytelling-based analysis of text message data"
-		},
-		{
-			"what": "Winner",
-			"where": "Lincoln Labs Hackathon",
-			"when": "2013",
-			"how": "Pitched and built JSON-API-driven citizen engagement SMS app on a team of 4"
+			"how": "Researched & <a href=\"https://www.youtube.com/watch?v=K7IXnbEC2Uk\">presented</a> a storytelling-based analysis of text message data"
 		},
 	],
 	"education": [
