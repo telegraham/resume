@@ -5,9 +5,21 @@
 	"pronouns": "he/they",
 	"elevatorSpeech": "I am an empathic, open-minded leader; a curious, pragmatic problem-solver; an artist who ships. I believe in big scary high-value goals and small, stable iterations towards them. I build and grow diverse teams where engineers can bring their best selves to work, learn from actionable feedback, and meet challenges together. I'm happy when I'm working my ass off, with people I trust, on something that matters.",
 	"work": [{
+			"what": "Engineering Manager",
+			"where": "Stitch Fix",
+			"when": "2023-present",
+			"how": [
+				"Managed workflows, roadmap & staffing for iOS platform and Android teams",
+				"Completed full rebrand of apps and component library with on-time launch",
+				"Completed long-term migrations enabling 20% lift in engineer productivity",
+				"Hired, onboarded, and offboarded multiple FTE engineers and contractors",
+				"Managed engineer performance through routine feedback and talent review"
+			]
+		},
+		{
 			"what": "Lead Software Engineer",
 			"where": "Stitch Fix",
-			"when": "2020-now",
+			"when": "2020-2023",
 			"how": [
 				"Led technical design & staffing of Live Styling to meet launch goals at scale",
 				"Partnered closely with product & design to align priorities & sequence work",
