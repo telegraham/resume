@@ -43,7 +43,7 @@ a {
 		transform-origin: inherit;
 	}
 	a:hover {
-		color: $printLink;
+		background: $printLink;
 		transition: color 0.25s;
 	}
 	a:hover:after {
